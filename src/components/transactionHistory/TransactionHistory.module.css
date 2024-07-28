@@ -1,0 +1,27 @@
+.table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+.table th {
+  color: white;
+  background: #000;
+  width: 200px;
+  text-align: center;
+  height: 40px;
+}
+
+.table td {
+  width: 200px;
+  text-align: center;
+  height: 40px;
+  border: 1px solid #000;
+}
+
+.table tr:nth-child(2n) {
+  background-color: gainsboro;
+}
+
+.type-td {
+  text-transform: capitalize;
+}
